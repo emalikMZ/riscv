@@ -2,6 +2,13 @@
 
 ````bash
 
+ip a | grep tap0
+
+```` 
+
+
+````bash
+
 cd ~/riscv-vm
 
 sudo qemu-system-riscv64 \
